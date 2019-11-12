@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jar2D2.Terminal", "Jar2D2.Terminal\Jar2D2.Terminal.csproj", "{D98591FB-7900-4331-8838-4AAC5420E457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jar2D2.Core", "Jar2D2.Core\Jar2D2.Core.csproj", "{6456B710-0463-492B-A95E-CA55283F1217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98591FB-7900-4331-8838-4AAC5420E457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98591FB-7900-4331-8838-4AAC5420E457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98591FB-7900-4331-8838-4AAC5420E457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98591FB-7900-4331-8838-4AAC5420E457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6456B710-0463-492B-A95E-CA55283F1217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6456B710-0463-492B-A95E-CA55283F1217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6456B710-0463-492B-A95E-CA55283F1217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6456B710-0463-492B-A95E-CA55283F1217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94F31E74-5BA2-4601-B01B-CD1EB0096999}
+	EndGlobalSection
+EndGlobal
