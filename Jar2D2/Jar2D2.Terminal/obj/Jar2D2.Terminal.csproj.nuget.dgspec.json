@@ -4,14 +4,14 @@
     "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\Jar2D2.Terminal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\Jar2D2.Terminal.csproj": {
+    "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Core\\Jar2D2.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\Jar2D2.Terminal.csproj",
-        "projectName": "Jar2D2.Terminal",
-        "projectPath": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\Jar2D2.Terminal.csproj",
+        "projectUniqueName": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Core\\Jar2D2.Core.csproj",
+        "projectName": "Jar2D2.Core",
+        "projectPath": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Core\\Jar2D2.Core.csproj",
         "packagesPath": "C:\\Users\\JobAdder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\obj\\",
+        "outputPath": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,83 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "ArduinoDriver": {
+              "target": "Package",
+              "version": "[2.4.6, )"
+            },
+            "ArduinoUploader": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\Jar2D2.Terminal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\Jar2D2.Terminal.csproj",
+        "projectName": "Jar2D2.Terminal",
+        "projectPath": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\Jar2D2.Terminal.csproj",
+        "packagesPath": "C:\\Users\\JobAdder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Terminal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JobAdder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://teamcity.jobadder.build/httpAuth/app/nuget/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Core\\Jar2D2.Core.csproj": {
+                "projectPath": "C:\\Users\\JobAdder\\Desktop\\jar2d2\\Jar2D2\\Jar2D2.Core\\Jar2D2.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

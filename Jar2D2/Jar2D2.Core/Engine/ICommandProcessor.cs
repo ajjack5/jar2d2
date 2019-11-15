@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Jar2D2.Core.Commands;
 
 namespace Jar2D2.Core.Engine
 {
-  interface ICommandProcessor
+  public interface ICommandProcessor
   {
+    void Send(ICommand command);
   }
 }

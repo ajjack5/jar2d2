@@ -1,12 +1,23 @@
-﻿using System;
+﻿using Jar2D2.Core;
+using Jar2D2.Core.Engine;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace Jar2D2.Terminal
 {
   class Program
   {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      InitialiseEngine();
+    }
+
+    public static void InitialiseEngine()
+    {
+      IServiceProvider serviceProvider = Startup.ConfigureServices();
+
+      IEngine engine = serviceProvider.GetRequiredService<IEngine>();
+      engine.Start();
     }
   }
 }
