@@ -1,0 +1,9 @@
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\bin\Debug\netcoreapp2.2\Jar2D2.Core.deps.json
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\bin\Debug\netcoreapp2.2\Jar2D2.Core.dll
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\bin\Debug\netcoreapp2.2\Jar2D2.Core.pdb
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.csproj.CoreCompileInputs.cache
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.AssemblyInfoInputs.cache
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.AssemblyInfo.cs
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.dll
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.pdb
+C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.csprojAssemblyReference.cache
