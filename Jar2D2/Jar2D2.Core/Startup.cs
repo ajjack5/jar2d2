@@ -1,6 +1,5 @@
 ﻿using Jar2D2.Core.Engine;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
 namespace Jar2D2.Core
 {

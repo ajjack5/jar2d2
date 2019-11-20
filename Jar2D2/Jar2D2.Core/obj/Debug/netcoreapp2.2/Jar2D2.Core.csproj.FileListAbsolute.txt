@@ -6,4 +6,3 @@ C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2
 C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.AssemblyInfo.cs
 C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.dll
 C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.pdb
-C:\Users\JobAdder\Desktop\jar2d2\Jar2D2\Jar2D2.Core\obj\Debug\netcoreapp2.2\Jar2D2.Core.csprojAssemblyReference.cache

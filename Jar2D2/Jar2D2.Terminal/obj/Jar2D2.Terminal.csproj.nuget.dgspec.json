@@ -54,10 +54,6 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
