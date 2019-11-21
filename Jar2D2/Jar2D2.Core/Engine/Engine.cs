@@ -1,5 +1,4 @@
-﻿using Jar2D2.Core.Commands.ConcreteCommands;
-using System;
+﻿using System;
 
 namespace Jar2D2.Core.Engine
 {
@@ -14,22 +13,22 @@ namespace Jar2D2.Core.Engine
 
     public void Start()
     {
-      while (true)
-      {
-        var keyCommand = Console.ReadKey();
+      //while (true)
+      //{
+      //  var keyCommand = Console.ReadKey();
 
-        if (keyCommand.Key == ConsoleKey.UpArrow)
-        {
-          CommandProcessor.Send(new UpCommand());
-          continue;
-        }
+      //  if (keyCommand.Key == ConsoleKey.UpArrow)
+      //  {
+      //    CommandProcessor.Send(new UpCommand());
+      //    continue;
+      //  }
 
-        else if (keyCommand.Key == ConsoleKey.DownArrow)
-        {
-          CommandProcessor.Send(new DownCommand());
-          continue;
-        }
-      }
+      //  else if (keyCommand.Key == ConsoleKey.DownArrow)
+      //  {
+      //    CommandProcessor.Send(new DownCommand());
+      //    continue;
+      //  }
+      //}
     }
   }
 }

@@ -4,6 +4,6 @@ namespace Jar2D2.Core.Engine
 {
   public interface ICommandProcessor
   {
-    void Send(ICommand command);
+    void Send(IOutCommand command);
   }
 }
