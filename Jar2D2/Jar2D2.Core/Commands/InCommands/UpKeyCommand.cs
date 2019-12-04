@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ArduinoDriver;
+﻿using Jar2D2.Core.ArduinoWrapper;
+using Jar2D2.Core.Commands.OutCommands;
 
 namespace Jar2D2.Core.Commands.InCommands
 {
-  public class UpKeyCommand : IInCommand
+  public class UpKeyCommand : BaseInCommand
   {
-    public void Execute()
+    public UpKeyCommand(IArduino arduino) : base(arduino)
     {
-      throw new NotImplementedException();
+      OutCommands.Add(new TestLightOnCommand());
     }
   }
 }

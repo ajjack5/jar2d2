@@ -1,4 +1,5 @@
-﻿using Jar2D2.Core.Engine;
+﻿using Jar2D2.Core.ArduinoWrapper;
+using Jar2D2.Core.Engine;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Jar2D2.Core
@@ -17,6 +18,7 @@ namespace Jar2D2.Core
 
       serviceCollection
         .AddSingleton<IEngine, Engine.Engine>()
+        .AddSingleton<IArduino, Arduino>()
         .AddSingleton<ICommandProcessor, CommandProcessor>();
 
       return serviceCollection

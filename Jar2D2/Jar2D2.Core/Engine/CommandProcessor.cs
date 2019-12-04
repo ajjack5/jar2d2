@@ -1,20 +1,20 @@
-﻿using ArduinoUploader.Hardware;
-using Jar2D2.Core.Commands;
+﻿using Jar2D2.Core.Commands;
+using Jar2D2.Core.ArduinoWrapper;
 
 namespace Jar2D2.Core.Engine
 {
 	public class CommandProcessor : ICommandProcessor
 	{
-		private readonly ArduinoDriver.ArduinoDriver Driver;
+		private readonly Arduino _Arduino;
 
-		public CommandProcessor()
+		public CommandProcessor(Arduino arduino)
 		{
-			Driver = new ArduinoDriver.ArduinoDriver(ArduinoModel.UnoR3, "COM3", true);
+      _Arduino = arduino;
 		}
 
-		public void Send(IOutCommand command)
-		{
-      command.Execute(Driver);
+    public void Process(IInCommand command)
+    {
+      command.Execute();
     }
   }
 }

@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using Jar2D2.Core.ArduinoWrapper;
+using System.Collections.Generic;
 
 namespace Jar2D2.Core.Commands
 {
 	public interface IOutCommand
 	{
     IDictionary<int, int> CommandRegistry { get; set; }
-    void Execute(ArduinoDriver.ArduinoDriver driver);
+    void Execute(IArduino arduino);
 	}
 }
